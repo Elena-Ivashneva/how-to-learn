@@ -1,6 +1,6 @@
 .feynman {
   box-sizing: border-box;
-  height: 890px;
+  min-height: 890px;
   padding-top: 100px;
   background: url(../../images/feinman.png) left bottom / 867px 637px no-repeat #f2f2f2;
   display: flex;
