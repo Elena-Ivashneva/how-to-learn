@@ -1,10 +1,11 @@
 .header {
-  display: flex;
-  align-items: center;
   position: relative;
+  display: flex;
+  box-sizing: border-box;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  padding: 30px 64px;
+  overflow: hidden;  /* Обрезание анимации */
   background-color: #f2f2f2;
-  overflow: hidden;
 }

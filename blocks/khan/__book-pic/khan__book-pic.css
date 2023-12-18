@@ -1,7 +1,4 @@
 .khan__book-pic {
-  width: 620px;
-  height: 608px;
-  object-fit: cover;
+  object-fit: cover;  /* Изображение обрезается, занимает весь блок */
   object-position: left top;
-  margin-right: 48px;
 }
