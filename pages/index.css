@@ -1,11 +1,19 @@
 @import url(../vendor/normalize.css);
+
+/* Шрифты */
 @import url(../vendor/fonts/fonts.css);
 
 /* Глобальные стили */
 @import url(../blocks/page/page.css);
+@import url(../blocks/container/container.css);
+
+/* Синие ссылки */
+@import url(../blocks/link/link.css);
+
+/* Анимация */
+@import url(../blocks/rotation/rotation.css);
 
 /* Миксы */
-@import url(../blocks/centering-container/centering-container.css);
 @import url(../blocks/section-gap/section-gap.css);
 @import url(../blocks/content/__section-title/content__section-title.css);
 @import url(../blocks/content/__section-subtitle/content__section-subtitle.css);
@@ -17,12 +25,6 @@
 @import url(../blocks/section-title/_theme/section-title_theme_dark.css);
 @import url(../blocks/section-subtitle/section-subtitle.css);
 @import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
-
-/* Синие ссылки */
-@import url(../blocks/link/link.css);
-
-/* Анимация */
-@import url(../blocks/rotation/rotation.css);
 
 /* Логотип сайта */
 @import url(../blocks/logo/_place/logo_place_header.css);
