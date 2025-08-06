@@ -5,7 +5,6 @@
 
 /* Глобальные стили */
 @import url(../blocks/page/page.css);
-@import url(../blocks/container/container.css);
 
 /* Синие ссылки */
 @import url(../blocks/link/link.css);
@@ -13,18 +12,15 @@
 /* Анимация */
 @import url(../blocks/rotation/rotation.css);
 
-/* Миксы */
+/* Миксы Блоки */
+@import url(../blocks/container/container.css);
 @import url(../blocks/section-gap/section-gap.css);
+
+/* Миксы Элементы */
 @import url(../blocks/content/__section-title/content__section-title.css);
 @import url(../blocks/content/__section-subtitle/content__section-subtitle.css);
 @import url(../blocks/content/__cards/content__cards.css);
 @import url(../blocks/content/__table/content__table.css);
-
-/* Заголовки секций */
-@import url(../blocks/section-title/section-title.css);
-@import url(../blocks/section-title/_theme/section-title_theme_dark.css);
-@import url(../blocks/section-subtitle/section-subtitle.css);
-@import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
 
 /* Логотип сайта */
 @import url(../blocks/logo/_place/logo_place_header.css);
@@ -37,12 +33,24 @@
 @import url(../blocks/header/__main-illustration/header__main-illustration.css);
 @import url(../blocks/header/__square-pic/header__square-pic.css);
 
+/* Заголовки секций */
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-title/_theme/section-title_theme_dark.css);
+@import url(../blocks/section-subtitle/section-subtitle.css);
+@import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
+
+/* Секция description */
+@import url(../blocks/description/description.css);
+
 /* Блок two-columns */
 @import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/two-columns/__brief/two-columns__brief.css);
 @import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
 @import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
 @import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
+
+/* Секция techniques */
+@import url(../blocks/techniques/techniques.css);
 
 /* Блок cards */
 @import url(../blocks/cards/cards.css);
@@ -58,12 +66,6 @@
 @import url(../blocks/table/__cell/_theme/table__cell_theme_dark.css);
 @import url(../blocks/table/__heading/table__heading.css);
 @import url(../blocks/table/__text/table__text.css);
-
-/* Секция description */
-@import url(../blocks/description/description.css);
-
-/* Секция techniques */
-@import url(../blocks/techniques/techniques.css);
 
 /* Секция video */
 @import url(../blocks/video/video.css);
